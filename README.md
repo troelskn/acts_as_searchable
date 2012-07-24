@@ -1,10 +1,10 @@
-ActAsSearchable
+ActsAsSearchable
 ===
 
-Adds a class method `act_as_searchable` on ActiveRecord models. To use, call the method in your models:
+Adds a class method `acts_as_searchable` on ActiveRecord models. To use, call the method in your models:
 
     class Ticket < ActiveRecord::Base
-      act_as_searchable
+      acts_as_searchable
     end
 
 This will provide a scope `search` on the model, that takes a string for searching full-text.

@@ -1,1 +1,1 @@
-require 'act_as_searchable'
+require 'acts_as_searchable'

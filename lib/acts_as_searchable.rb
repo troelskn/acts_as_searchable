@@ -1,5 +1,5 @@
-module ActAsSearchable
-  def act_as_searchable(default_searchable_options = {})
+module ActsAsSearchable
+  def acts_as_searchable(default_searchable_options = {})
     # TODO: escape table + column names
     fn = lambda do |*args|
       raise ArgumentError if args.empty? || args.size > 2
@@ -94,4 +94,4 @@ module ActAsSearchable
     self.scope :search, fn
   end
 end
-ActiveRecord::Base.extend ActAsSearchable
+ActiveRecord::Base.extend ActsAsSearchable

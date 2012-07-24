@@ -1,3 +1,3 @@
-module ActAsSearchable
+module ActsAsSearchable
   VERSION = "0.0.1"
 end

@@ -3,7 +3,7 @@ require File.expand_path('../boot', __FILE__)
 require 'rails/all'
 
 Bundler.require
-require "act_as_searchable"
+require "acts_as_searchable"
 
 module Dummy
   class Application < Rails::Application
