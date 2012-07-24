@@ -7,7 +7,7 @@ Adds a class method `act_as_searchable` on ActiveRecord models. To use, call the
       act_as_searchable
     end
 
-This will provide a scope `search` on the model, that takes a string for searching free-text searching.
+This will provide a scope `search` on the model, that takes a string for searching full-text.
 
 TODO: Document the query format
 
